@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sunflower:wght@300&display=swap');
+@import url(./root.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.bg-img {
+    background-image: url(/assets/image/home-page-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plus {
+    font-family: "Sunflower", serif;
+}
+
+.try-btn {
+    padding: 13px 32px 13px 32px !important;
+    gap: 8px;
+    border-radius: 40px;
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%) !important;
+    box-shadow: 0px 4px 32px 0px #2746ED80;
+}
+
+.mr-51 {
+    margin-right: 51px;
+}
+
+.mr-46 {
+    margin-right: 46px;
+}
+
+.ml-39 {
+    margin-left: 39px;
+}
+
+.lh-20 {
+    line-height: 13px;
+}
+
+.navbar-toggler {
+    background-color: transparent !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(/assets/image/white-nav-btn.png) !important;
+    color: white !important;
+}
+
+.nav-link {
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+}
+
+.navbar-nav {
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+}
+
+
+.mx-524 {
+    max-width: 524px;
+}
+
+.mx-515 {
+    max-width: 515px;
+}
+
+.mx-467 {
+    max-width: 467px;
+}
+
+.mx-474 {
+    max-width: 474px;
+}
+
+.mx-834 {
+    max-width: 834px;
+}
+
+.span-blue {
+    color: #0389FF;
+}
+
+.text-world {
+    position: relative;
+    padding-left: 109px;
+}
+
+.text-world::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 109px;
+    height: 2px;
+    background-color: #0389FF;
+    transform: translate(-50%, -50%);
+}
+
+.Request-btn {
+    padding: 13px 32px 13px 32px;
+    gap: 8px;
+    border-radius: 40px;
+    opacity: 0px;
+    border: none;
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    box-shadow: 0px 4px 32px 0px #2746ED80;
+}
+
+.Request-btn:hover {
+    background-color: white;
+}
+
+.cost-card {
+    padding: 16px 20px 16px 20px;
+    gap: 20px;
+    line-height: 20px;
+    border-radius: 12px;
+    background: #0389FF1F;
+    backdrop-filter: blur(24px);
+    top: 35%;
+    left: 2.5%;
+    position: absolute;
+}
+
+.File-card {
+    padding: 16px 20px 16px 20px;
+    gap: 20px;
+    line-height: 20px;
+    border-radius: 12px;
+    background: #0389FF1F;
+    backdrop-filter: blur(24px);
+    top: 65%;
+    left: -2%;
+    position: absolute;
+}
+
+.Accuracy-card {
+    padding: 16px 20px 16px 20px;
+    gap: 20px;
+    line-height: 20px;
+    border-radius: 12px;
+    background: #0389FF1F;
+    backdrop-filter: blur(24px);
+    top: 49%;
+    right: 2%;
+    position: absolute;
+}
+
+.Time-card {
+    padding: 16px 20px 16px 20px;
+    gap: 20px;
+    border-radius: 12px;
+    background: #0389FF1F;
+    backdrop-filter: blur(24px);
+    top: 78%;
+    right: 17.5%;
+    position: absolute;
+}
+
+.over-flow {
+    overflow: hidden;
+}
+
+.watch-btn {
+    padding: 13px 32px 13px 32px;
+    gap: 8px;
+    border-radius: 40px;
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    box-shadow: 0px 4px 32px 0px #2746ED80;
+    border: none;
+}
+
+.watch-btn:hover {
+    background-color: white;
+    color: #0069E3;
+}
+
+.value-box {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    max-width: 400px;
+    gap: 14px;
+    border-radius: 10px;
+    background: #0389FF1F;
+    backdrop-filter: blur(25px);
+}
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.blue-circle {
+    top: -20%;
+    left: -5%;
+}
+
+.slider-box {
+    max-width: 946px;
+    border-radius: 20px;
+    background: #0389FF1F;
+}
+
+.learn-btn {
+    padding: 13px 32px 13px 32px;
+    gap: 8px;
+    border-radius: 40px;
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    border: none;
+    box-shadow: 0px 4px 32px 0px #2746ED80;
+    color: white;
+}
+.learn-btn:hover{
+    background-color: white;
+}
