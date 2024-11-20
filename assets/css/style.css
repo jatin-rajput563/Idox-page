@@ -42,6 +42,10 @@
     margin-left: 39px;
 }
 
+.pt-92 {
+    padding-top: 92px;
+}
+
 .lh-20 {
     line-height: 13px;
 }
@@ -225,6 +229,7 @@
     box-shadow: 0px 4px 32px 0px #2746ED80;
     color: white;
 }
-.learn-btn:hover{
+
+.learn-btn:hover {
     background-color: white;
 }
